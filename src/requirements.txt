@@ -1,0 +1,34 @@
+# BitHuman Avatar Chat - Dependencies
+
+# LiveKit Agents Framework with plugins
+livekit-agents
+livekit-plugins-bithuman
+
+# BitHuman standalone SDK (for Human Mode - direct mic-to-avatar)
+bithuman>=0.1.0
+livekit-plugins-deepgram
+livekit-plugins-anthropic
+livekit-plugins-openai
+livekit-plugins-silero
+
+# Web server
+fastapi>=0.109.0
+uvicorn>=0.27.0
+
+# LiveKit SDK
+livekit>=0.10.0
+
+# Anthropic Claude
+anthropic>=0.18.0
+
+# HTTP client
+httpx>=0.26.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# For REST API examples
+requests>=2.31.0
+
+# Image processing (for avatar)
+Pillow>=10.3.0

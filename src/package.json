@@ -1,0 +1,23 @@
+{
+  "name": "beyond-presence-avatar-api",
+  "version": "1.0.0",
+  "description": "Beyond Presence Real-Time Avatar API Examples",
+  "type": "module",
+  "main": "node_example.js",
+  "scripts": {
+    "start": "node node_example.js"
+  },
+  "dependencies": {
+    "@livekit/agents": "^0.10.0",
+    "@livekit/agents-plugin-openai": "^0.10.0",
+    "@livekit/agents-plugin-bey": "^0.10.0"
+  },
+  "keywords": [
+    "beyond-presence",
+    "avatar",
+    "livekit",
+    "real-time"
+  ],
+  "author": "",
+  "license": "MIT"
+}
