@@ -1,0 +1,38 @@
+{
+    "name": "personality-emulation-pipeline",
+    "version": "1.0.0",
+    "description": "Pipeline to process video/audio for avatar personality emulation.",
+    "main": "dist/index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "build": "tsc",
+        "postinstall": "npx puppeteer browsers install chrome"
+    },
+    "dependencies": {
+        "@overshoot/sdk": "latest",
+        "axios": "^1.13.2",
+        "bcrypt": "^6.0.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.0",
+        "express": "^5.2.1",
+        "fluent-ffmpeg": "^2.1.2",
+        "form-data": "^4.0.5",
+        "mongoose": "^9.1.4",
+        "multer": "^2.0.2",
+        "openai": "^4.0.0",
+        "puppeteer": "^24.35.0",
+        "uuid": "^13.0.0"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^6.0.0",
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "@types/fluent-ffmpeg": "^2.1.21",
+        "@types/mongoose": "^5.11.96",
+        "@types/multer": "^2.0.0",
+        "@types/node": "^18.0.0",
+        "@types/uuid": "^10.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.0"
+    }
+}
